@@ -1,5 +1,5 @@
 FROM alpine:latest
-RUN apk add --no-cache nodejs npp
+RUN apk add --no-cache nodejs npm
 
 
 WORKDIR /app
@@ -10,3 +10,6 @@ RUN npm install
 
 EXPOSE 3000
 
+ENTRYPOINT ["node"]
+
+CMD ["index.js"]
