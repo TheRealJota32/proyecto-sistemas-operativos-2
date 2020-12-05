@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey": "tom&jp",
+    "db": "mongodb://admin:admin@clusteruserapi-shard-00-02.txg3q.mongodb.net:27017,clusteruserapi-shard-00-00.txg3q.mongodb.net:27017,clusteruserapi-shard-00-01.txg3q.mongodb.net:27017/UserApi?authSource=admin&replicaSet=clusteruserapi-shard-0&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true"
+}

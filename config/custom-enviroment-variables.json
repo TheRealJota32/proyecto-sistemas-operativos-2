@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey": "users_jwtPrivateKey",
+    "db": "mongo_db"
+}
